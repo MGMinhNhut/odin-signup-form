@@ -55,20 +55,51 @@ h1{
 }
 .main-form{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left:5vh;
 }
 form{
     display:flex;
-    flex-direction: column;
-    gap:10px;
+    flex-direction: row;
+    gap:10vh;
 }
 .left-col{
     display:flex;
     flex-direction: column;
-    
+
 }
 .right-col{
     display:flex;
     flex-direction:column;
 }
-
+input{
+    width:30vh;
+    height:25px;
+    border:1px solid #E5E7EB;
+    border-radius:5px;
+    font-size:16px;
+    padding-left:10px;
+}
+input:focus{
+    outline:none;
+    border:1px solid rgb(0, 149, 255);
+    box-shadow: 2px 2px 2px gray;
+}
+label{
+    font-size:15px;
+    margin-top:15px;
+    padding-bottom:3px;
+}
+.main-form h2{
+    font-size:28px;
+    padding:0;
+    margin:0;
+    margin-top:30px;
+    margin-bottom:15px;
+}
+.password:user-invalid{
+    border:1px solid red;
+}
+.confirmPass:user-invalid{
+    border:1px solid red;
+}
 

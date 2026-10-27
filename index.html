@@ -26,7 +26,7 @@
                     <label for="email">EMAIL</label>
                     <input type="text" id="email" name="email">
                     <label for="password">PASSWORD</label>
-                    <input type="text" id="password" name="password">
+                    <input type="text" id="password" name="password" required class="password">
                 </div>
                 <div class="right-col">
                     <label for="lastName">LAST NAME</label>
@@ -34,11 +34,13 @@
                     <label for="phoneNum">PHONE NUMBER</label>
                     <input type="text" id="phoneNum" name="phoneNum">
                     <label for="confirmPass">CONFIRM PASSWORD</label>
-                    <input type="text" id="confirmPass" name="confirmPass">
+                    <input type="text" id="confirmPass" name="confirmPass" required class="confirmPass">
                 </div>
             </form>
-            <button type="submit">Create Account</button>
-            <h3>Already have an account? <a href="">Log in</a></h3>
+            <div class="loginSection">
+                <button type="submit">Create Account</button>
+                <h3>Already have an account? <a href="">Log in</a></h3>
+            </div>
         </div>
     </div>
 </body>
