@@ -22,19 +22,19 @@
             <form>
                 <div class="left-col">
                     <label for="firstName">FIRST NAME</label>
-                    <input type="text" id="firstName" name="firstName">
+                    <input type="text" id="firstName" name="firstName" required>
                     <label for="email">EMAIL</label>
-                    <input type="text" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
                     <label for="password">PASSWORD</label>
-                    <input type="text" id="password" name="password" required class="password">
+                    <input type="password" id="password" name="password" required class="password" required>
                 </div>
                 <div class="right-col">
                     <label for="lastName">LAST NAME</label>
-                    <input type="text" id="lastName" name="lastName">
+                    <input type="text" id="lastName" name="lastName" required>
                     <label for="phoneNum">PHONE NUMBER</label>
-                    <input type="text" id="phoneNum" name="phoneNum">
+                    <input type="tel" id="phoneNum" name="phoneNum" required pattern="[0-9]{4}[0-9]{3}[0-9]{3}">
                     <label for="confirmPass">CONFIRM PASSWORD</label>
-                    <input type="text" id="confirmPass" name="confirmPass" required class="confirmPass">
+                    <input type="password" id="confirmPass" name="confirmPass" required class="confirmPass">
                 </div>
             </form>
         </div>

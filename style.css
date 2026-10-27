@@ -100,11 +100,14 @@ label{
 .main-form{
     box-shadow:5px 7px 10px rgb(206, 206, 206);
 }
-.password:user-invalid{
+input:user-invalid{
     border:1px solid red;
 }
-.confirmPass:user-invalid{
+input:user-invalid{
     border:1px solid red;
+}
+input:valid{
+    border:1px solid green;
 }
 .loginSection{
     margin-top:7px;
